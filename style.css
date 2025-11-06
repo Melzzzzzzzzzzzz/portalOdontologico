@@ -1,0 +1,29 @@
+/* CORES */
+
+:root {
+    --azul-agua: #4fc3c2;
+    --branco-gelo: #f9fafb;
+    --amarelo-pastel: #fff68f;
+    --texto: #3333;
+}
+
+/* ESTILOS GERAIS*/
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: var(--branco-gelo);
+    line-height: 1.6;
+}
+
+/* CAEBÇALHO */
+
+header {
+    background-color: var(--azul-agua);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+}
